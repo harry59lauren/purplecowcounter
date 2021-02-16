@@ -17,7 +17,7 @@ Click the button to increment the button click count displayed on the page
 
 2. Clone the project and run dockerfile using Docker  
 
-    >     git clone <project>
+    >     git clone git clone https://github.com/harry59lauren/purplecowcounter.git
     >     docker build -f Dockerfile.prod -t purple-cow-counter:prod .
     >     docker run -it --rm -p 3000:80 purple-cow-counter:prod
 
