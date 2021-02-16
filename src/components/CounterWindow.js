@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 function CounterWindow() {
 
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(null);
 
     const incrementCounter = () => {
         fetch(
