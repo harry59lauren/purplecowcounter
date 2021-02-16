@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import * as CountingService from '../services/CountingService';
 
 function CounterWindow() {
 
